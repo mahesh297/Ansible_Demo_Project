@@ -3,3 +3,4 @@
 db_name: javademo
 db_user: admin
 db_password: "{{ vault_db_pass }}" 
+client_host: 10.100.224.42
