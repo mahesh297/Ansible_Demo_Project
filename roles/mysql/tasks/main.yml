@@ -38,6 +38,6 @@
        dest: /tmp
    - name: Restore database
      mysql_db:
-       name: devopsclass
+       name: javademo
        state: import
        target: /tmp/devopsclass.sql
